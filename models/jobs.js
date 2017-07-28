@@ -10,4 +10,6 @@ const JobSchema = new Schema({
 	contactName: String,
 	contactTitle: String,
 	contactEmail: String
-})
+});
+
+module.exports = mongoose.model('Job', JobSchema);
